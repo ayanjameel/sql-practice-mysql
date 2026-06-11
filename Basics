@@ -1,1 +1,11 @@
+-- Show all products
+SELECT * FROM products;
 
+-- Show name and price
+SELECT name, price
+FROM products;
+
+-- Products from Laptop category
+SELECT *
+FROM products
+WHERE category = 'Laptop';
